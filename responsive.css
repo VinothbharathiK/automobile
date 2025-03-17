@@ -2,7 +2,7 @@
 @media screen and (max-width:1000px) {
    
 
-    .contact-us{
+    .car-section{
         flex-direction: column;
         height: auto;
         width: 85vw;
@@ -10,25 +10,25 @@
         
     }
 
-    .contact-content{
+    .car-content{
         width: 100%;
         overflow: hidden;
     }
 
-    .contact-content-2{
+    .car-content-2{
         width:100%;
 
     }
     
  
 
-    #img-contact-us-left{
+    #img-car-left{
         width: 100%;
         height: 50vh;
         
     }
     
-    #img-contact-us-right{
+    #img-car-right{
         width: 100%;
         height: 50vh;
        
