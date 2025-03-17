@@ -188,7 +188,7 @@ footer div{
 
 .img-car {
     width: 50%;
-    background-image: url(images/car1.jpg);
+    background-image: url(car1.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ footer div{
 }
 
 .img-car-2 {
-    background-image: url(images/car2.png);
+    background-image: url(car2.jpeg);
     width: 50%;
     
     background-position: center;
@@ -204,7 +204,7 @@ footer div{
 }
 
 .img-car-3 {
-    background-image: url(images/car3.png);
+    background-image: url(car3.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ footer div{
 }
 
 .img-car-4 {
-    background-image: url(images/car4.png);
+    background-image: url(car4.jpeg);
     width: 50%;
     background-position: center;
     background-size: cover;
