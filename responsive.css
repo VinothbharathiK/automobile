@@ -1,0 +1,52 @@
+
+@media screen and (max-width:700px) {
+   
+
+    .contact-us{
+        flex-direction: column;
+        height: auto;
+        width: 85vw;
+        overflow: hidden;
+        
+    }
+
+    .contact-content{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .contact-content-2{
+        width:100%;
+
+    }
+    
+ 
+
+    #img-contact-us-left{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    
+    #img-contact-us-right{
+        width: 100%;
+        height: 50vh;
+       
+        
+    }
+
+    footer .footer-top{
+        width: 50%;
+    }
+
+    
+.bike_list{
+    width:100%;
+    
+   
+}
+
+
+   
+}
+
