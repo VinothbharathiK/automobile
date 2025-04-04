@@ -1,0 +1,110 @@
+.bike-image{
+    height:600px;
+    width:100%;
+    margin-left: 20vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    overflow: hidden;
+}
+
+.images-list{
+    height: 90%;
+    width: 60%;
+}
+
+.images-list img{
+    width: 90%;
+    height: 135%;
+    margin-top: -100px;
+    padding-left: 5vw;
+    /* background-color: beige; */
+}
+
+.color-button{
+    width: 4%;
+    position: absolute;
+    right: 3%;
+    height: 60%;
+    top: 10%;
+    border-radius: 30px;
+    background-color: rgb(241, 241, 241);
+    
+  
+}
+
+.color-button button{
+   display: block;
+   margin: 35px 0px 60px 9px;
+   padding: 20px;
+   border: none;
+   box-shadow: 0 0 2px black;
+   border-radius: 50px;
+  
+}
+
+.color-1{
+   background-color: rgb(0, 0, 0);
+}
+
+.color-2{
+    background-color: rgb(255, 255, 255);
+}
+
+.color-3{
+    background-color: rgb(255, 36, 36);
+}
+
+.color-4{
+    background-color: rgb(0, 255, 0);
+}
+
+.color-1:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+ }
+ 
+ .color-2:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+ }
+
+ .color-3:hover{
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+ }
+
+ .color-4:hover{
+    box-shadow: 0px 0px 10px rgb(30, 133, 1);
+ }
+
+.bike-details{
+    width: 90%;
+    margin-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.b{
+    width: 30%;
+    height: 250px;
+    margin-right: 3%;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right,rgb(239, 236, 236) ,rgb(238, 235, 235),rgb(239, 238, 238));
+    border-radius: 50px 0 50px 0;
+}
+
+.bike-details h2{
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px 0 20px 0;
+    background-color: rgb(225, 221, 225);
+    display: inline-block;
+    margin-left: 15px;
+    box-shadow: 0 1px 2px black;
+}
+
+.bike-details ul li{
+    font-size: larger;
+}
+
+body{
+    overflow-x: hidden;
+}
