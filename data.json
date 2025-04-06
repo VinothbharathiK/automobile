@@ -1,0 +1,38 @@
+{
+  "bike1": {
+    "image": "images/vbk200.png",
+    "colors": [
+      { "image": "images/vbkn200.png", "color": "#000000" },
+      { "image": "images/vbk400s.png",   "color": "#ffffff" },
+      { "image": "images/vbk600s.png",  "color": "#ff2424" },
+      { "image": "images/vbk200.png",  "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["Detail 1", "Detail 2", "Detail 3", "Detail 4"],
+      "power": ["Power 1", "Power 2", "Power 3", "Power 4"],
+      "braking": ["Brake 1", "Brake 2", "Brake 3", "Brake 4"],
+      "weight": ["Weight 1", "Weight 2", "Weight 3", "Weight 4"],
+      "tank": ["Tank 1", "Tank 2", "Tank 3", "Tank 4"],
+      "topspeed": ["Speed 1", "Speed 2", "Speed 3", "Speed 4"]
+    }
+  },
+  "bike2": {
+    "image": "images/vbks1000.png",
+    "colors": [
+      { "image": "images/vbkn400.png", "color": "#444" },
+      { "image": "images/vbkn900.png", "color": "#ffa500" },
+      { "image": "images/vbks1000.png", "color": "#0055ff" },
+      { "image": "images/vbk200.png", "color": "#ff00ff" }
+    ],
+    "details": {
+      "engine": ["E1", "E2", "E3", "E4"],
+      "power": ["P1", "P2", "P3", "P4"],
+      "braking": ["B1", "B2", "B3", "B4"],
+      "weight": ["W1", "W2", "W3", "W4"],
+      "tank": ["T1", "T2", "T3", "T4"],
+      "topspeed": ["S1", "S2", "S3", "S4"]
+    }
+  }
+}
+
+  
