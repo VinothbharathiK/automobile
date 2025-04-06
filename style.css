@@ -230,6 +230,15 @@ footer {
 
 }
 
+.car_list_head{
+    color: black;
+}
+
+.car-content   a {
+    color: rgb(75, 75, 75);
+    
+}
+
 .car-content-2 p {
     line-height: 30px;
 }

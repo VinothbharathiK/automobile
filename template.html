@@ -1,105 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="bikes.css">
+  <link rel="stylesheet" href="vehicles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 </head>
 
 <body>
- 
-
   <nav class="navbar">
     <div class="nav-content">
-      <a href="#">
+      <a href="index.html" style="text-decoration: none;">
         <i class="fas fa-home"></i>
+        <img src="https://i.pinimg.com/originals/74/61/5a/74615a8a4ca335fdaf502f911f8038be.png" alt="" style="height: 25px;width: 25px;margin-right: 20px;" >
         Home
       </a>
     </div>
   </nav>
-<section class="bikes-page">
 
-<div class="bike-image">
-  <div class="images-list">
-    <img id="bikeImage" alt=""> 
+<section class="vehicles-page">
+  <div class="vehicle-image">
+    <div class="images-list">
+      <img id="vehicleImage" alt=""> 
+    </div>
+    <div class="color-button" id="colorButtons">
+      <!-- Buttons will be dynamically generated here -->
+    </div>
   </div>
-  <div class="color-button" id="colorButtons">
-    <!-- Buttons will be dynamically generated here -->
+
+  <br><br><br><br><br>
+
+  <div class="vehicle-details">
+    <div class="v"> <h2>Engine</h2> <ul></ul> </div>
+    <div class="v"> <h2>Power</h2> <ul></ul> </div>
+    <div class="v"> <h2>Braking</h2> <ul></ul> </div>
+    <div class="v"> <h2>Weight</h2> <ul></ul> </div>
+    <div class="v"> <h2>Tank</h2> <ul></ul> </div>
+    <div class="v"> <h2>Top Speed</h2> <ul></ul> </div>
   </div>
-</div>
-
-
-
-<br><br><br><br><br>
-
-<div class="bike-details">
-  <div class="b"> <h2>Engine</h2> <ul></ul> </div>
-  <div class="b"> <h2>Power</h2> <ul></ul> </div>
-  <div class="b"> <h2>Braking</h2> <ul></ul> </div>
-  <div class="b"> <h2>Weight</h2> <ul></ul> </div>
-  <div class="b"> <h2>Tank</h2> <ul></ul> </div>
-  <div class="b"> <h2>Top Speed</h2> <ul></ul> </div>
-</div>
-
 </section>
-<!-- footer.html -->
+
+
+
+
 <footer class="footer">
   <p>&copy; 2025 vbkautomobile. All rights reserved.</p>
 </footer>
 
-
-
-
-
-
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
-    const bikeKey = urlParams.get("bike") || "bike1";
+    const vehicleKey = urlParams.get("vehicle") || "phantom200";
+
 
     fetch("data.json")
       .then(res => res.json())
       .then(data => {
-        const bikeData = data[bikeKey];
-        if (!bikeData) {
-          document.body.innerHTML = "<h2>Bike not found</h2>";
+        const vehicleData = data[vehicleKey];
+        if (!vehicleData) {
+          document.body.innerHTML = "<h2>Vehicle not found</h2>";
           return;
         }
 
-        // Set main image
-        const bikeImage = document.getElementById("bikeImage");
-        bikeImage.src = bikeData.image;
+        const vehicleImage = document.getElementById("vehicleImage");
+        vehicleImage.src = vehicleData.image;
 
-        // Set details
         const keys = ["engine", "power", "braking", "weight", "tank", "topspeed"];
         keys.forEach((key, index) => {
-          const ul = document.querySelectorAll(".bike-details .b ul")[index];
-          ul.innerHTML = bikeData.details[key].map(item => `<li>${item}</li>`).join("");
+          const ul = document.querySelectorAll(".vehicle-details .v ul")[index];
+          ul.innerHTML = vehicleData.details[key].map(item => `<li>${item}</li>`).join("");
         });
 
-        // Create color buttons dynamically
         const colorButtons = document.getElementById("colorButtons");
         colorButtons.innerHTML = "";
-        bikeData.colors.forEach((color, i) => {
+        vehicleData.colors.forEach((color, i) => {
           const btn = document.createElement("button");
           btn.className = `color-btn color-${i + 1}`;
-
           btn.setAttribute("data-image", color.image);
           btn.style.backgroundColor = color.color;
           btn.addEventListener("click", function () {
-            bikeImage.src = this.getAttribute("data-image");
+            vehicleImage.src = this.getAttribute("data-image");
           });
           colorButtons.appendChild(btn);
         });
       });
   });
-
-
-
-
 </script>
 
 </body>
 </html>
-

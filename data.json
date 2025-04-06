@@ -1,36 +1,181 @@
 {
-  "bike1": {
-    "image": "images/vbk200.png",
+  "phantom200": {
+    "image": "images/phantom200b.png",
     "colors": [
-      { "image": "images/vbkn200.png", "color": "#000000" },
-      { "image": "images/vbk400s.png",   "color": "#ffffff" },
-      { "image": "images/vbk600s.png",  "color": "#ff2424" },
-      { "image": "images/vbk200.png",  "color": "#00ff00" }
+      { "image": "images/phantom200b.png", "color": "#000000" },
+      { "image": "images/phantom200w.png", "color": "#ffffff" },
+      { "image": "images/phantom200r.png", "color": "#ff0000" },
+      { "image": "images/phantom200g.png", "color": "#00ff00" }
     ],
     "details": {
-      "engine": ["Detail 1", "Detail 2", "Detail 3", "Detail 4"],
-      "power": ["Power 1", "Power 2", "Power 3", "Power 4"],
-      "braking": ["Brake 1", "Brake 2", "Brake 3", "Brake 4"],
-      "weight": ["Weight 1", "Weight 2", "Weight 3", "Weight 4"],
-      "tank": ["Tank 1", "Tank 2", "Tank 3", "Tank 4"],
-      "topspeed": ["Speed 1", "Speed 2", "Speed 3", "Speed 4"]
+      "engine": ["399cc displacement", "Liquid-cooled twin-cylinder", "Optimized for high RPM"],
+      "power": ["~50 HP @ 11,000 RPM", "Consistent power band", "Smooth throttle response"],
+      "braking": ["Front and rear disc brakes", "ABS enabled", "Responsive brake feel"],
+      "weight": ["~170 kg dry weight", "Lightweight alloy frame", "Ideal for city and highway"],
+      "tank": ["Fuel capacity: 14L", "Long-range design", "Ergonomic tank shape"],
+      "topspeed": ["Top speed: 180 km/h", "Stable at high speeds", "Aerodynamic body"]
     }
   },
-  "bike2": {
-    "image": "images/vbks1000.png",
+  
+  "phantom400": {
+    "image": "images/phantom400b.png",
     "colors": [
-      { "image": "images/vbkn400.png", "color": "#444" },
-      { "image": "images/vbkn900.png", "color": "#ffa500" },
-      { "image": "images/vbks1000.png", "color": "#0055ff" },
-      { "image": "images/vbk200.png", "color": "#ff00ff" }
+      { "image": "images/phantom400b.png", "color": "#000000" },
+      { "image": "images/phantom400w.png", "color": "#ffffff" },
+      { "image": "images/phantom400r.png", "color": "#ff0000" },
+      { "image": "images/phantom400g.png", "color": "#00ff00" }
     ],
     "details": {
-      "engine": ["E1", "E2", "E3", "E4"],
-      "power": ["P1", "P2", "P3", "P4"],
-      "braking": ["B1", "B2", "B3", "B4"],
-      "weight": ["W1", "W2", "W3", "W4"],
-      "tank": ["T1", "T2", "T3", "T4"],
-      "topspeed": ["S1", "S2", "S3", "S4"]
+      "engine": ["399cc, twin-cylinder", "Liquid-cooled", "Precision engineered"],
+      "power": ["~50 HP @ 11,000 RPM", "Smooth mid-range", "Performance-focused"] ,
+      "braking": ["High grip ABS brakes", "Front and rear disc", "Track tested"],
+      "weight": ["170 kg lightweight", "Balanced chassis", "Easy maneuvering"],
+      "tank": ["14L fuel tank", "Efficient mileage", "Integrated design"],
+      "topspeed": ["180+ km/h top speed", "Wind tunnel tested", "Stability focused"]
+    }
+  },
+
+  "viper900": {
+    "image": "images/viper900b.png",
+    "colors": [
+      { "image": "images/viper900b.png", "color": "#000000" },
+      { "image": "images/viper900w.png", "color": "#ffffff" },
+      { "image": "images/viper900r.png", "color": "#ff0000" },
+      { "image": "images/viper900g.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["999cc engine", "Twin-cylinder liquid-cooled", "Built for power"],
+      "power": ["~55 HP @ 10,500 RPM", "Efficient torque band", "Optimized for sprinting"],
+      "braking": ["Dual disc brakes", "ABS-equipped", "Precise control"],
+      "weight": ["175 kg frame", "Reinforced steel alloy", "Balanced build"],
+      "tank": ["15L fuel capacity", "Sleek aerodynamic tank", "Sport riding friendly"],
+      "topspeed": ["190 km/h+", "Built for speed", "Stable aerodynamics"]
+    }
+  },
+
+  "falcon400": {
+    "image": "images/falcon400b.png",
+    "colors": [
+      { "image": "images/falcon400b.png", "color": "#000000" },
+      { "image": "images/falcon400w.png", "color": "#ffffff" },
+      { "image": "images/falcon400r.png", "color": "#ff0000" },
+      { "image": "images/falcon400g.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["399cc twin-cylinder", "Liquid-cooled sport tuned", "Designed for agility"],
+      "power": ["~60 HP @ 11,500 RPM", "Aggressive power delivery", "Optimized ECU mapping"],
+      "braking": ["Dual disc with ABS", "Superior cornering grip", "Fade resistant"],
+      "weight": ["180 kg dry", "Compact chassis", "Track-optimized"],
+      "tank": ["16L fuel tank", "Aggressive tuck-in tank", "Long-distance friendly"],
+      "topspeed": ["200 km/h max", "Wind-resistant frame", "Precision ride"]
+    }
+  },
+
+  "blaze600": {
+    "image": "images/blaze600b.png",
+    "colors": [
+      { "image": "images/blaze600b.png", "color": "#000000" },
+      { "image": "images/blaze600w.png", "color": "#ffffff" },
+      { "image": "images/blaze600r.png", "color": "#ff0000" },
+      { "image": "images/blaze600g.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["599cc inline-4", "High revving design", "Track-tuned"],
+      "power": ["~90 HP @ 12,000 RPM", "Linear acceleration", "Race-grade output"],
+      "braking": ["Radial mounted brakes", "Adjustable ABS", "Quick stopping"],
+      "weight": ["190 kg", "Carbon parts included", "Stable geometry"],
+      "tank": ["17L tank", "Slim-fit profile", "Endurance riding"],
+      "topspeed": ["240 km/h top", "Full fairing aerodynamic", "Minimal drag"]
+    }
+  },
+
+  "shadow1000": {
+    "image": "images/shadow1000b.png",
+    "colors": [
+      { "image": "images/shadow1000b.png", "color": "#000000" },
+      { "image": "images/shadow1000w.png", "color": "#ffffff" },
+      { "image": "images/shadow1000r.png", "color": "#ff0000" },
+      { "image": "images/shadow1000g.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["998cc inline-4", "Liquid-cooled performance", "Race derived"],
+      "power": ["~100 HP @ 12,500 RPM", "High torque delivery", "Fast response ECU"],
+      "braking": ["High spec discs", "MotoGP grade ABS", "Precision braking"],
+      "weight": ["195 kg dry", "Performance tuned", "Built for speed"],
+      "tank": ["18L fuel storage", "High-speed touring", "Sleek design"],
+      "topspeed": ["250 km/h max", "Stabilized by aero winglets", "Designed for drag"]
+    }
+  },
+
+  "venomgt": {
+    "image": "images/venomgtb.png",
+    "colors": [
+      { "image": "images/venomgtb.png", "color": "#000000" },
+      { "image": "images/venomgtw.png", "color": "#ffffff" },
+      { "image": "images/venomgtr.png", "color": "#ff0000" },
+      { "image": "images/venomgtg.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["4.0L Twin-Turbo V8", "Track-optimized turbo boost", "Built for maximum power"],
+      "power": ["~1,200 HP", "Instant acceleration", "High-performance fuel injection"],
+      "braking": ["Carbon ceramic brakes", "Track-tuned ABS", "Precision handling"],
+      "weight": ["~1,250 kg", "Carbon fiber monocoque", "Lightweight forged wheels"],
+      "tank": ["90L high-capacity", "Optimized for long track runs", "Rear mounted"],
+      "topspeed": ["350+ km/h", "Wind tunnel tested", "Extreme downforce"]
+    }
+  },
+
+  "raptor": {
+    "image": "images/raptorb.png",
+    "colors": [
+      { "image": "images/raptorb.png", "color": "#000000" },
+      { "image": "images/raptorw.png", "color": "#ffffff" },
+      { "image": "images/raptorr.png", "color": "#ff0000" },
+      { "image": "images/raptorg.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["5.2L NA V10", "High-rev capability", "Titanium internals"],
+      "power": ["~950 HP @ 8,800 RPM", "Linear throttle", "Track and street ready"],
+      "braking": ["Titanium ceramic discs", "Adaptive ABS", "Performance traction"],
+      "weight": ["~1,400 kg", "Aluminum-carbon hybrid body", "Low center of gravity"],
+      "tank": ["85L custom tank", "Built-in fuel cooling", "Rear diffuser shaped"],
+      "topspeed": ["330 km/h+", "Valvetronic exhaust tune", "Enhanced airflow"]
+    }
+  },
+
+  "phantomlux": {
+    "image": "images/phantomluxb.png",
+    "colors": [
+      { "image": "images/phantomluxb.png", "color": "#000000" },
+      { "image": "images/phantomluxw.png", "color": "#ffffff" },
+      { "image": "images/phantomluxr.png", "color": "#ff0000" },
+      { "image": "images/phantomluxg.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["6.0L Quad-Turbo V12", "High-output luxury tuned", "Massive torque spread"],
+      "power": ["~1,500 HP", "Optimized for luxury-speed", "Effortless acceleration"],
+      "braking": ["Luxury disc system", "Stability-focused ABS", "Silent stop tech"],
+      "weight": ["~1,600 kg", "Alcantara-carbon cabin", "Heavy duty dampers"],
+      "tank": ["95L touring tank", "Balanced chassis integration", "Rear comfort setup"],
+      "topspeed": ["340 km/h", "Luxury smooth ride", "Active comfort dynamics"]
+    }
+  },
+
+  "striker": {
+    "image": "images/strikerb.png",
+    "colors": [
+      { "image": "images/strikerb.png", "color": "#000000" },
+      { "image": "images/strikerw.png", "color": "#ffffff" },
+      { "image": "images/strikerr.png", "color": "#ff0000" },
+      { "image": "images/strikerg.png", "color": "#00ff00" }
+    ],
+    "details": {
+      "engine": ["3.5L V6 + Electric", "Hybrid dual source", "Electric motor torque assist"],
+      "power": ["~1,100 HP total", "700 HP ICE, 400 HP electric", "Smooth hybrid integration"],
+      "braking": ["Regenerative brakes", "Adaptive brake system", "Track-hybrid tuned"],
+      "weight": ["~1,450 kg", "Hybrid light tech", "Efficient power-to-weight ratio"],
+      "tank": ["70L hybrid fuel cell", "EV + fuel mix", "Rapid charge capable"],
+      "topspeed": ["320+ km/h", "Instant electric torque", "Hybrid aerodynamic form"]
     }
   }
 }
