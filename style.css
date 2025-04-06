@@ -31,7 +31,7 @@ h2{
     width: 100%;
     height: 100%;
     object-fit: cover; /* Fills section like a background image */
-    z-index: 0; /* Sends video behind gradient and content */
+    z-index: -1; /* Sends video behind gradient and content */
 }
 
 .homee{
@@ -53,6 +53,7 @@ h2{
     padding: 0 3vw 0 3vw;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    z-index: 1;
     
 }
 
@@ -68,7 +69,6 @@ h2{
     color: rgb(0, 255, 213);
     text-decoration: underline;
     
-    position: relative;
 }
 
 .sign-up button{
@@ -495,7 +495,7 @@ background-image: url(images/vbk200.png);
     align-items: center;
     color: white; /* Text color */
     text-align: center;
-    z-index: 1; /* Place overlay above video */
+    z-index: 0; /* Place overlay above video */
 }
 
 .video-overlay h1,h2{
