@@ -1,0 +1,281 @@
+  
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="script.js"></script>
+    
+</head>
+<body>
+    <section class="home">
+        <div class="video-overlay"> <div class="overlay-text">
+            <h1>READY TO RACE !!!</h2>
+            <h2 class="vbk-name">VBK AUTOMOBILES...</h2>
+        
+        </div>
+    </div>
+        
+        <video autoplay loop muted playsinline>
+            <source src="car.mp4" type="video/mp4">  
+        </video>
+        <div class="homee">
+            <div class="logo">
+              
+        <img src="images/logo.png" alt="" >
+        
+            </div>
+            
+            <button class="menu-toggle">☰</button>
+            <div class="links">
+             <a href="#bikes">Bikes</a>
+             <a href="#cars">Cars</a>
+             <a href="#about">About us</a>
+            
+            </div>
+
+             <div class="sign-up">
+                <button id="enquire-button">Enquire now</button>
+                
+                </div>
+
+           
+
+            <div class="enquiry-form-overlay" id="enquiry-form-overlay">
+                <div class="enquiry-form-container">
+                    <h2>Enquiry Form</h2>
+                    <form id="enquiry-form">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        <select id="vehicleType" name="vehicleType" required>
+                            <option value="">Select Vehicle Type</option>
+                            <option value="bike">Bike</option>
+                            <option value="car">Car</option>
+                        </select>
+                        <select id="vehicleName" name="vehicleName" required>
+                            <option value="">Select Vehicle</option>
+                        </select>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+                        <div class="form-buttons">
+                            <button type="submit" class="submit-btn">Submit</button>
+                            <button type="button" class="cancel-btn" id="cancel-button">Cancel</button>
+                        </div>
+                        <div class="success-message" id="success-message"></div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+      
+     
+    </section>
+  <br>
+    <section class="bikes_section" id="bikes">
+      <center>  <h2 class="main-headings">Sports Bikes</h2> </center><br>
+      
+      <div class="bikes bikes-l">
+        <div class="bike_list">
+            <div class="bike_img" id="bike_1">
+                <div class="bike-content">
+                <p class="bike_list_head">VBK Phantom 200 (Naked Sports)</p>
+                <ol>
+                    <li>Engine: 399cc, Liquid-Cooled, Twin-Cylinder</li>
+                    <li>Power: ~50 HP @ 11,000 RPM</li>
+                    <li>Torque: 38 Nm @ 8,500 RPM</li>
+                    <li>Weight: ~170 kg</li>
+                    <li class="more-details"><a href="template.html?vehicle=phantom200" >Click for details</a></li>
+                </ol>
+            </div>
+            </div>
+        </div>
+    
+        <div class="bike_list">
+            <div class="bike_img" id="bike_2">
+                <p class="bike_list_head">VBK Phantom 400 (Naked Sports)</p>
+                <ol>
+                    <li>Engine: 399cc, Liquid-Cooled, Twin-Cylinder</li>
+                    <li>Power: ~50 HP @ 11,000 RPM</li>
+                    <li>Torque: 38 Nm @ 8,500 RPM</li>
+                    <li>Weight: ~170 kg</li>
+                    <li class="more-details"><a href="template.html?vehicle=phantom400" >Click for details</a></li>
+                </ol>
+            </div>
+        </div>
+    
+        <div class="bike_list bikes-l">
+            <div class="bike_img" id="bike_3">
+                <p class="bike_list_head">VBK Viper 900 (Naked Sports)</p>
+                <ol>
+                    <li>Engine: 999cc, Liquid-Cooled, Twin-Cylinder</li>
+                    <li>Power: ~55 HP @ 10,500 RPM</li>
+                    <li>Torque: 42 Nm @ 8,000 RPM</li>
+                    <li>Weight: ~175 kg</li>
+                    <li class="more-details"><a href="template.html?vehicle=viper900" >Click for details</a></li>
+                </ol>
+            </div>
+        </div>
+    
+        <div class="bike_list">
+            <div class="bike_img" id="bike_4">
+                <p class="bike_list_head">VBK Falcon 400 (Fully-Faired Sports)</p>
+                <ol>
+                    <li>Engine: 399cc, Liquid-Cooled, Twin-Cylinder</li>
+                    <li>Power: ~60 HP @ 11,500 RPM</li>
+                    <li>Torque: 45 Nm @ 9,000 RPM</li>
+                    <li>Weight: ~180 kg</li>
+                    <li class="more-details"><a href="template.html?vehicle=falcon400" >Click for details</a></li>
+                </ol>
+            </div>
+        </div>
+    
+        <div class="bike_list bikes-l">
+            <div class="bike_img" id="bike_5">
+                <p class="bike_list_head">VBK Blaze 600 (Fully-Faired Sports)</p>
+                <ol>
+                    <li>Engine: 599cc, Liquid-Cooled, Inline-4</li>
+                    <li>Power: ~90 HP @ 12,000 RPM</li>
+                    <li>Torque: 60 Nm @ 9,500 RPM</li>
+                    <li>Weight: ~190 kg</li>
+                    <li class="more-details"><a href="template.html?vehicle=blaze600" >Click for details</a></li>
+                </ol>
+            </div>
+        </div>
+    
+        <div class="bike_list ">
+            <div class="bike_img" id="bike_6">
+                <p class="bike_list_head">VBK Shadow 1000(Fully-Faired Sports)</p>
+                <ol>
+                    <li>Engine: 998cc, Liquid-Cooled, Inline-4</li>
+                    <li>Power: ~100 HP @ 12,500 RPM</li>
+                    <li>Torque: 68 Nm @ 10,000 RPM</li>
+                    <li>Weight: ~195 kg</li>
+                    <li class="more-details"><a href="template.html?vehicle=shadow1000" >Click for details</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+     
+    </section>
+   <br><hr> 
+   <center> <h2 class="main-headings" id="cars">Super cars</h2> </center> <br> <br>
+
+   <div class="car-section" id="car-section-1" >
+    
+    <div class="img-car img-car-1" id="img-car-left" >
+   
+</div>
+
+    <div class="car-content" id="car-content-right">
+        <a href="template.html?vehicle=venomgt"><p class="car_list_head">VBK Venom GT (Track-Focused Hypercar)</p> </a>
+        <ol class="car_list">
+            <li>Engine: 4.0L Twin-Turbo V8</li>
+            <li>Power: ~1,200 HP @ 8,500 RPM</li>
+            <li>Torque: 1,100 Nm @ 5,000 RPM</li>
+            <li>Weight: ~1,250 kg (Lightweight Carbon Chassis)</li>
+            
+            <li>Built for the track, the X1 features a full carbon fiber monocoque chassis, an active aero system, and lightweight forged wheels. It delivers extreme downforce and precision handling for high-speed performance.</li>
+           
+        </ol>
+    </div>
+</div>
+
+<br><br>
+
+<div class="car-section " id="car-section-2">
+    <div class="img-car-2 img-car" id="img-car-right">
+    </div>
+    <div class="car-content-2 car-content" id="car-content-left">
+      <a href="template.html?vehicle=raptor">  <p class="car_list_head">VBK Raptor (Street-Legal Beast)</p></a>
+        <ol>
+            <li>Engine: 5.2L Naturally Aspirated V10</li>
+            <li>Power: ~950 HP @ 8,800 RPM</li>
+            <li>Torque: 780 Nm @ 6,500 RPM</li>
+            <li>Weight: ~1,400 kg</li>
+            <li>Designed for raw power and street dominance, the Raptor comes with an ultra-lightweight aluminum-carbon hybrid body, a valvetronic titanium exhaust, and adaptive suspension for aggressive yet smooth driving.</li>
+        </ol>
+    </div>
+
+   
+</div>
+
+<br><br>
+
+<div class="car-section">
+    <div class="img-car-3 img-car" id="img-car-left">
+    </div>
+
+    <div class="car-content" id="car-content-right">
+       <a href="template.html?vehicle=phantomlux"> <p class="car_list_head">VBK Phantom (Ultimate Luxury Hyper GT)</p></a>
+        <ol>
+            <li>Engine: 6.0L Quad-Turbo V12</li>
+            <li>Power: ~1,500 HP @ 7,200 RPM</li>
+            <li>Torque: 1,300 Nm @ 4,500 RPM</li>
+            <li>Weight: ~1,600 kg (Luxury Interior & Features)</li>
+            <li>h</li>
+            <li>A hypercar built for luxury and speed, the Phantom boasts a handcrafted Alcantara and carbon fiber interior.</li>
+        </ol>
+    </div>
+</div>
+
+<br><br>
+
+<div class="car-section ">
+    <div class="img-car-4 img-car" id="img-car-right">
+    </div>
+    <div class="car-content-2 car-content" id="car-content-left">
+       <a href="template.html?vehicle=striker"> <p class="car_list_head">VBK Striker (Hybrid Hypercar)</p> </a>
+        <ol>
+            <li>Engine: 3.5L Twin-Turbo V6 + Electric Motors</li>
+            <li>Power: ~1,100 HP (700 HP ICE + 400 HP Electric)</li>
+            <li>Torque: 1,200 Nm (Instant Torque from Electric)</li>
+            <li>Weight: ~1,450 kg (Advanced Lightweight Hybrid Tech)</li>
+            <li>The Striker combines advanced hybrid technology with instant torque electric motors, a regenerative braking system.</li>
+        </ol>
+    </div>
+
+    
+</div>
+<br><br><br><br>
+   
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about" id="about">
+        <h3>About Us</h3>
+        <p>
+            This is a simple project created to demonstrate dynamic vehicle detail loading using HTML, CSS, JavaScript, and JSON
+        </p>
+      </div>
+  
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p>Email: support@vbkmotors***.com</p>
+        <p>Phone: +91-98******10</p>
+        <p>Location: Bengaluru, India</p>
+      </div>
+  
+      <div class="footer-section social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> vbkautomobile | All rights reserved.
+    </div>
+  </footer>
+  
+  
+   
+        
+</body>
+</html>

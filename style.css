@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Finger+Paint&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Rubik+Mono+One&family=Rubik+Vinyl&family=Sofia&display=swap');
+
+*{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Josefin Sans", sans-serif;
+   
+}
+
+
+h1{
+    overflow: hidden;
+}
+
+h2{
+    overflow: hidden;
+}
+
+.home{
+   
+    width: 100%;
+    height: 100vh; /* Full height */
+   
+}
+
+.home video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fills section like a background image */
+    z-index: -1; /* Sends video behind gradient and content */
+}
+
+.homee{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.08) , rgb(0, 0, 0,0.3),rgba(0, 0, 0, 0.03) );
+    padding: 10px;
+    width: 97vw;
+    margin: 10px 5px 0 5px;
+    border-radius: 20px;
+    
+    
+    
+   
+}
+
+.links a{
+    padding: 0 3vw 0 3vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    z-index: 1;
+    
+}
+
+/* Navbar links */
+.links {
+    display: flex;
+    gap: 15px;
+  
+}
+
+
+.links a:hover{
+    color: rgb(0, 255, 213);
+    text-decoration: underline;
+    
+}
+
+.sign-up button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;  
+   
+}
+
+.sign-up button:hover{
+   color: aquamarine;
+   background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    
+   
+}
+
+.logo img {
+    height: 6vh !important;
+    overflow: hidden;
+    width: 5.5vw !important;
+    
+    
+}
+
+.search{
+    margin-top: 25vh;
+  
+    
+}
+
+.search input {
+border-radius: 15px;
+padding: 5px 15px 5px 15px;
+}
+
+.search button {
+    height: 30px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+   
+
+}
+
+.home-content{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+
+
+footer {
+    background: #151515;
+    color: #fff;
+    padding: 40px 20px 20px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-y: hidden;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .footer-section {
+    /* flex: 1 1 300px; */
+  width: 250px;
+  
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .footer-section p {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #ccc;
+  }
+  
+  .social-icons a {
+    color: #ccc;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00bcd4;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+
+
+
+
+.img-car{
+    background-repeat: no-repeat;
+   background-size: 70%;
+    overflow: hidden;
+  background-position: center;
+    width: 50%;
+    position: relative;
+    overflow-x: hidden;
+    transition: transform 1s ease-in-out,background-size 0.5s ease-in-out;
+}
+
+.img-car:hover{
+    background-size: 100%;
+}
+
+.img-car-1 {
+    
+    background-image:url(images/venomgtr.png);
+
+}
+
+.img-car-2 {
+    background-image: url(images/raptorr.png);
+}
+
+.img-car-3 {
+    background-image: url(images/phantomluxw.png);
+}
+
+.img-car-4 {
+    background-image: url(images/strikerr.png);
+
+}
+
+
+
+.car-content {
+    width: 50%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px solid black;
+
+}
+
+.car-content-2 {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.car_list_head{
+    color: black;
+}
+
+.car-content   a {
+    color: rgb(75, 75, 75);
+    
+}
+
+.car-content-2 p {
+    line-height: 30px;
+}
+
+.car-content p {
+    line-height: 30px;
+}
+
+.car-content li {
+    list-style: circle;
+}
+
+.car-section {
+    display: flex;
+    height:350px ;
+    width: 97%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around !important;
+    margin: 1.5%;
+    background-color: rgb(0, 0, 0,0.8);
+    
+    font-family: "Bebas Neue", serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+
+    box-shadow: 5px 5px 5px solid black;
+    background: radial-gradient(circle at 25% center, white 1%, rgb(136, 136, 136) 40%);
+
+}
+
+
+
+.home-contentt{
+    margin-top: 25vh;
+    padding: 0 5vw 0 5vw;
+    line-height: 35px;
+}
+
+.home-contentt button{
+    background-color: black;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid white;
+
+}
+
+.home-contentt button:hover{
+    background-color: rgb(255, 251, 251);
+   
+}
+
+.home-contentt a:hover{
+    color: black;
+}
+
+.home-contentt a{
+    color: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+
+}
+
+.home-contentt p {
+    font-family: "Satisfy", serif;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+.bikes_section{
+    width: 95%;
+    margin-left: 4%;
+}
+
+.main-headings{
+    font-family: "Rubik Mono One", monospace;
+    text-shadow: 0px 0px 10px rgb(117, 115, 115);
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.bikes{
+    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+   margin-right: 1%;
+    flex-wrap: wrap;
+   
+    
+}
+
+.bikes p{
+    
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255,0.7);
+      
+      
+}
+
+.bikes ol{
+    
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255,0.7);
+      
+      
+}
+
+.bike_list_head{
+    font-size: 1.3rem;
+    font-family: "Sofia", cursive !important;
+    padding: 10px 10px 10px 30px;
+    
+    
+}
+
+.more-details{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(128, 128, 128,0.7);
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+
+
+
+.more-details a{
+    text-decoration: none;
+    color: white;
+}
+
+.car_list_head{
+    font-size: 1.6rem;
+    font-family: "Sofia", cursive;
+    padding: 20px 10px 10px 30px;}
+
+.bike_list{
+    width: 47%;
+    background-color: rgb(157, 162, 162);
+    height: 500px;
+    margin: 1%;
+    padding: 1vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px solid black;
+    background-color: rgb(188, 188, 188) ;
+    transition: transform 1s ease-in-out,background-color 1s ease;
+   
+}
+
+
+.bike_list:hover{
+    background-color: rgb(52, 51, 51);
+    
+
+}
+
+.bike_img{
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+   overflow: hidden;
+   transition: transform 0.5s ease-in, background-position 1s ease-in-out, background-size 0.5s ease-in-out;
+}
+
+.bike_img:hover{
+   background-size: 80%;
+   background-position: center;
+   
+  
+}
+
+
+
+
+
+/* #bike_1{
+background-image: url(images/vbk200.png);
+
+} */
+
+
+
+#bike_1{
+    background-image: url(images/phantom200r.png);
+}
+
+#bike_2{
+    background-image: url(images/phantom400g.png);
+   
+   
+}
+
+
+
+#bike_3{
+    background-image:url(images/viper900g.png);
+   
+    
+}
+
+
+
+#bike_4{
+    background-image: url(images/falcon400w.png);
+
+    
+}
+
+#bike_5{
+   background-image:  url(images/blaze600b.png);
+ 
+    
+}
+
+
+#bike_6{
+    background-image: url(images/shadow1000b.png);
+  
+    
+}
+   
+.bike_list p{
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+   
+}
+
+.bike_list ol li{
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+    text-align: center;
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.5) , rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5) );
+    z-index: 0; /* Place overlay above video */
+}
+
+.video-overlay h1,h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:bolder;
+    color: rgba(255, 255, 255,0.8);
+}
+.vbk-name{
+    font-size: 2rem;
+   color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.overlay-text  {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    
+   
+}
+
+.overlay-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 1.2em;
+}
+
+
+
+
+
+/* Dropdown button styles */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-toggle {
+    position: relative;
+    z-index: 1000;
+   
+}
+
+
+
+
+ /* Form container styles */
+ .enquiry-form-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.enquiry-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.enquiry-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.enquiry-form-container input,
+.enquiry-form-container textarea,
+.enquiry-form-container select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.enquiry-form-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enquiry-form-container .submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.enquiry-form-container .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 10px;
+}
+
+.enquiry-form-container .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
