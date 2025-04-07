@@ -85,8 +85,9 @@ h2{
 }
 
 .logo img {
-    height: 5vh;
+    height: 6vh !important;
     overflow: hidden;
+    width: 5.5vw !important;
     
     
 }
@@ -197,20 +198,20 @@ footer {
 
 .img-car-1 {
     
-    background-image:url(images/car1.png);
+    background-image:url(images/venomgtr.png);
 
 }
 
 .img-car-2 {
-    background-image: url(images/car2.png);
+    background-image: url(images/raptorr.png);
 }
 
 .img-car-3 {
-    background-image: url(images/car3.png);
+    background-image: url(images/phantomluxw.png);
 }
 
 .img-car-4 {
-    background-image: url(images/car4.png);
+    background-image: url(images/strikerr.png);
 
 }
 
@@ -435,11 +436,11 @@ background-image: url(images/vbk200.png);
 
 
 #bike_1{
-    background-image: url(images/vbk200.png);
+    background-image: url(images/phantom200r.png);
 }
 
 #bike_2{
-    background-image: url(images/vbkn400.png);
+    background-image: url(images/phantom400g.png);
    
    
 }
@@ -447,7 +448,7 @@ background-image: url(images/vbk200.png);
 
 
 #bike_3{
-    background-image:url(images/vbkn900.png);
+    background-image:url(images/viper900g.png);
    
     
 }
@@ -455,20 +456,20 @@ background-image: url(images/vbk200.png);
 
 
 #bike_4{
-    background-image: url(images/vbk400s.png);
+    background-image: url(images/falcon400w.png);
 
     
 }
 
 #bike_5{
-   background-image:  url(images/vbk600s.png);
+   background-image:  url(images/blaze600b.png);
  
     
 }
 
 
 #bike_6{
-    background-image: url(images/vbks1000.png);
+    background-image: url(images/shadow1000b.png);
   
     
 }
@@ -498,6 +499,7 @@ background-image: url(images/vbk200.png);
     align-items: center;
     color: white; /* Text color */
     text-align: center;
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.5) , rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5) );
     z-index: 0; /* Place overlay above video */
 }
 

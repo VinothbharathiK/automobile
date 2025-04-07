@@ -10,7 +10,7 @@
     <div class="nav-content">
       <a href="index.html" style="text-decoration: none;">
         <i class="fas fa-home"></i>
-        <img src="https://i.pinimg.com/originals/74/61/5a/74615a8a4ca335fdaf502f911f8038be.png" alt="" style="height: 25px;width: 25px;margin-right: 20px;" >
+        <img src="images/logo.png" alt="" style="height: 35px;width: 60px;margin-right: 20px;" >
         Home
       </a>
     </div>
@@ -19,6 +19,7 @@
 <section class="vehicles-page">
   <div class="vehicle-image">
     <div class="images-list">
+      <h1 id="vehicleHeading"></h1>
       <img id="vehicleImage" alt=""> 
     </div>
     <div class="color-button" id="colorButtons">
@@ -62,6 +63,10 @@
 
         const vehicleImage = document.getElementById("vehicleImage");
         vehicleImage.src = vehicleData.image;
+
+        const headingElement = document.getElementById("vehicleHeading");
+        headingElement.textContent = vehicleData.heading || "Vehicle Details";
+
 
         const keys = ["engine", "power", "braking", "weight", "tank", "topspeed"];
         keys.forEach((key, index) => {

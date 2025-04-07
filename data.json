@@ -1,12 +1,14 @@
 {
   "phantom200": {
     "image": "images/phantom200b.png",
+    "heading": "Phantom 200",
     "colors": [
       { "image": "images/phantom200b.png", "color": "#000000" },
       { "image": "images/phantom200w.png", "color": "#ffffff" },
       { "image": "images/phantom200r.png", "color": "#ff0000" },
       { "image": "images/phantom200g.png", "color": "#00ff00" }
     ],
+  
     "details": {
       "engine": ["399cc displacement", "Liquid-cooled twin-cylinder", "Optimized for high RPM"],
       "power": ["~50 HP @ 11,000 RPM", "Consistent power band", "Smooth throttle response"],
@@ -19,6 +21,7 @@
   
   "phantom400": {
     "image": "images/phantom400b.png",
+    "heading": "Phantom 400",
     "colors": [
       { "image": "images/phantom400b.png", "color": "#000000" },
       { "image": "images/phantom400w.png", "color": "#ffffff" },
@@ -37,6 +40,7 @@
 
   "viper900": {
     "image": "images/viper900b.png",
+    "heading": "viper 900",
     "colors": [
       { "image": "images/viper900b.png", "color": "#000000" },
       { "image": "images/viper900w.png", "color": "#ffffff" },
@@ -55,6 +59,7 @@
 
   "falcon400": {
     "image": "images/falcon400b.png",
+    "heading": "falcon 400",
     "colors": [
       { "image": "images/falcon400b.png", "color": "#000000" },
       { "image": "images/falcon400w.png", "color": "#ffffff" },
@@ -73,6 +78,7 @@
 
   "blaze600": {
     "image": "images/blaze600b.png",
+    "heading": "blaze 600",
     "colors": [
       { "image": "images/blaze600b.png", "color": "#000000" },
       { "image": "images/blaze600w.png", "color": "#ffffff" },
@@ -91,6 +97,7 @@
 
   "shadow1000": {
     "image": "images/shadow1000b.png",
+    "heading": "shadow 1000",
     "colors": [
       { "image": "images/shadow1000b.png", "color": "#000000" },
       { "image": "images/shadow1000w.png", "color": "#ffffff" },
@@ -108,7 +115,8 @@
   },
 
   "venomgt": {
-    "image": "images/venomgtb.png",
+    "image": "images/venomgtr.png",
+    "heading": "venom gt",
     "colors": [
       { "image": "images/venomgtb.png", "color": "#000000" },
       { "image": "images/venomgtw.png", "color": "#ffffff" },
@@ -127,6 +135,7 @@
 
   "raptor": {
     "image": "images/raptorb.png",
+    "heading": "raptor",
     "colors": [
       { "image": "images/raptorb.png", "color": "#000000" },
       { "image": "images/raptorw.png", "color": "#ffffff" },
@@ -145,6 +154,7 @@
 
   "phantomlux": {
     "image": "images/phantomluxb.png",
+    "heading": "phantom lux",
     "colors": [
       { "image": "images/phantomluxb.png", "color": "#000000" },
       { "image": "images/phantomluxw.png", "color": "#ffffff" },
@@ -163,6 +173,7 @@
 
   "striker": {
     "image": "images/strikerb.png",
+    "heading": "striker",
     "colors": [
       { "image": "images/strikerb.png", "color": "#000000" },
       { "image": "images/strikerw.png", "color": "#ffffff" },
