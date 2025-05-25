@@ -3,6 +3,8 @@ body{
     font-family: "Josefin Sans", sans-serif;
 }
 
+
+
 .vehicle-image {
     height:650px;
     width:100%;
@@ -64,15 +66,15 @@ body{
     height: 250px;
     margin-right: 3%;
     margin-bottom: 40px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231,0.1);
     border-radius:5px;
-    box-shadow:  0px 0px 2px rgb(0, 0, 0);
+    box-shadow:  0px 0px 2px rgb(151, 151, 151);
 }
 
 .vehicle-details h2 {
     padding: 5px 15px 5px 15px;
     border-radius: 20px 0 20px 20px;
-    background-color: rgb(192, 189, 189);
+    background-color: rgb(239, 238, 238);
     display: inline-block;
     margin-left: 15px;
     box-shadow: 0px 0px 1px black;
@@ -214,6 +216,11 @@ footer.footer {
 
     
     #vehicleHeading{
-        z-index: -1000;
+        color: rgb(0, 0, 0,0.05);
+        text-shadow: none;
+        margin-top: 25vh;
+        margin-left: 20px;
+
     }
+
 }
