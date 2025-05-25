@@ -211,4 +211,9 @@ footer.footer {
     .nav-content i {
       font-size: 18px;
     }
+
+    
+    #vehicleHeading{
+        z-index: -1000;
+    }
 }
