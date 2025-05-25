@@ -2,6 +2,7 @@
 body{
     font-family: "Josefin Sans", sans-serif;
 }
+
 .vehicle-image {
     height:650px;
     width:100%;
@@ -11,8 +12,8 @@ body{
 }
 
 .images-list {
-    height: 90%;
-    width: 65%;
+    height: 80%;
+    width: 70%;
 }
 
 .images-list img {
@@ -103,7 +104,7 @@ footer.footer {
 
 #vehicleHeading{
    font-size: 4rem;
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     position: absolute;
     text-shadow: -1px 3px 5px black;
    left: 5%;

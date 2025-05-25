@@ -1,10 +1,10 @@
 {
   "phantom200": {
-    "image": "images/phantom200b.png",
+    "image": "images/phantom200b.webp",
     "heading": "Phantom 200",
     "colors": [
-      { "image": "images/phantom200b.png", "color": "#000000" },
-      { "image": "images/phantom200w.png", "color": "#ffffff" },
+      { "image": "images/phantom200b.webp", "color": "#000000" },
+      { "image": "images/phantom200w.webp", "color": "#ffffff" },
       { "image": "images/phantom200r.png", "color": "#ff0000" },
       { "image": "images/phantom200g.png", "color": "#00ff00" }
     ],
@@ -39,13 +39,13 @@
   },
 
   "viper900": {
-    "image": "images/viper900b.png",
+    "image": "images/viper900b.webp",
     "heading": "viper 900",
     "colors": [
-      { "image": "images/viper900b.png", "color": "#000000" },
-      { "image": "images/viper900w.png", "color": "#ffffff" },
-      { "image": "images/viper900r.png", "color": "#ff0000" },
-      { "image": "images/viper900g.png", "color": "#00ff00" }
+      { "image": "images/viper900b.webp", "color": "#000000" },
+      { "image": "images/viper900w.webp", "color": "#ffffff" },
+      { "image": "images/viper900r.webp", "color": "#ff0000" },
+      { "image": "images/viper900g.webp", "color": "#00ff00" }
     ],
     "details": {
       "engine": ["999cc engine", "Twin-cylinder liquid-cooled", "Built for power"],
@@ -58,13 +58,13 @@
   },
 
   "falcon400": {
-    "image": "images/falcon400b.png",
+    "image": "images/falcon400b.webp",
     "heading": "falcon 400",
     "colors": [
-      { "image": "images/falcon400b.png", "color": "#000000" },
-      { "image": "images/falcon400w.png", "color": "#ffffff" },
-      { "image": "images/falcon400r.png", "color": "#ff0000" },
-      { "image": "images/falcon400g.png", "color": "#00ff00" }
+      { "image": "images/falcon400b.webp", "color": "#000000" },
+      { "image": "images/falcon400w.webp", "color": "#ffffff" },
+      { "image": "images/falcon400r.webp", "color": "#ff0000" },
+      { "image": "images/falcon400g.webp", "color": "#00ff00" }
     ],
     "details": {
       "engine": ["399cc twin-cylinder", "Liquid-cooled sport tuned", "Designed for agility"],
@@ -77,13 +77,13 @@
   },
 
   "blaze600": {
-    "image": "images/blaze600b.png",
+    "image": "images/blaze600b.webp",
     "heading": "blaze 600",
     "colors": [
-      { "image": "images/blaze600b.png", "color": "#000000" },
-      { "image": "images/blaze600w.png", "color": "#ffffff" },
-      { "image": "images/blaze600r.png", "color": "#ff0000" },
-      { "image": "images/blaze600g.png", "color": "#00ff00" }
+      { "image": "images/blaze600b.webp", "color": "#000000" },
+      { "image": "images/blaze600w.webp", "color": "#ffffff" },
+      { "image": "images/blaze600r.webp", "color": "#ff0000" },
+      { "image": "images/blaze600g.webp", "color": "#00ff00" }
     ],
     "details": {
       "engine": ["599cc inline-4", "High revving design", "Track-tuned"],
@@ -100,7 +100,7 @@
     "heading": "shadow 1000",
     "colors": [
       { "image": "images/shadow1000b.png", "color": "#000000" },
-      { "image": "images/shadow1000w.png", "color": "#ffffff" },
+      { "image": "images/shadow1000w.webp", "color": "#ffffff" },
       { "image": "images/shadow1000r.png", "color": "#ff0000" },
       { "image": "images/shadow1000g.png", "color": "#00ff00" }
     ],
